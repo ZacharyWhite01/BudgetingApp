@@ -333,7 +333,7 @@
             </objects>
             <point key="canvasLocation" x="127" y="439"/>
         </scene>
-        <!--Income-->
+        <!--View Controller-->
         <scene sceneID="nhK-BE-UZM">
             <objects>
                 <viewController id="tAG-hZ-x1f" sceneMemberID="viewController">
@@ -375,7 +375,7 @@
                                     <segue destination="BeX-Zo-Xpu" kind="presentation" modalTransitionStyle="partialCurl" id="sRl-QT-Xii"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Balance : $??" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNo-qb-nGe">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Balance : $??" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNo-qb-nGe">
                                 <rect key="frame" x="229" y="118" width="310" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -385,7 +385,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Income" id="Asp-gZ-qby"/>
+                    <tabBarItem key="tabBarItem" title="" image="Income" id="Asp-gZ-qby"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DQ0-kT-BHW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,6 +411,9 @@
             <point key="canvasLocation" x="-645" y="-265"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Income" width="30" height="30"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="sRl-QT-Xii"/>
         <segue reference="uvT-i9-lHP"/>
