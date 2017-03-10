@@ -243,9 +243,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <connections>
-                        <segue destination="2LO-Q4-Jam" kind="show" identifier="DismissButton" id="uvT-i9-lHP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZID-aA-sqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -315,7 +312,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Set Budget"/>
                                 <connections>
-                                    <segue destination="BeX-Zo-Xpu" kind="presentation" modalTransitionStyle="partialCurl" id="J5f-r4-zv9"/>
+                                    <segue destination="BeX-Zo-Xpu" kind="show" id="Zmi-yD-Lkc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDB-9G-lwd">
@@ -372,7 +369,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Set Budget"/>
                                 <connections>
-                                    <segue destination="BeX-Zo-Xpu" kind="presentation" modalTransitionStyle="partialCurl" id="sRl-QT-Xii"/>
+                                    <segue destination="BeX-Zo-Xpu" kind="show" id="60N-DN-Xh0"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Balance : $??" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNo-qb-nGe">
@@ -415,7 +412,6 @@
         <image name="Income" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sRl-QT-Xii"/>
-        <segue reference="uvT-i9-lHP"/>
+        <segue reference="Zmi-yD-Lkc"/>
     </inferredMetricsTieBreakers>
 </document>
